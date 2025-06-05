@@ -2,8 +2,12 @@
   "name": "vitest-project-repro",
   "version": "1.0.0",
   "main": "index.js",
+  "private": "true",
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
-    "test": "vitest --coverage"
+    "test": "DEBUG=\"vite-node:*\" vitest run --coverage"
   },
   "author": "",
   "license": "ISC",

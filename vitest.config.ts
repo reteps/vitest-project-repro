@@ -2,7 +2,7 @@ import { defaultExclude, defineConfig } from 'vitest/config';
 
 export default defineConfig({
   test: {
-    projects: ['apps/*'],
+    projects: ['apps/foo'],
     include: ['apps/foo/**/*.test.ts'],
     exclude: ['apps/bar/**', ...defaultExclude],
     coverage: {

@@ -1,0 +1,13 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
