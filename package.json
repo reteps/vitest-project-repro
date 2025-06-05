@@ -1,0 +1,17 @@
+{
+  "name": "vitest-project-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vitest": "^3.2.2"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.2"
+  }
+}
